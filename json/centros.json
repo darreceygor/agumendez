@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Chamula, tierra de las artes",
+        "id": "1",
+        "direccion": "prueba.html",
+        "instagram": "https://www.instagram.com/chamulacentrocultural",
+        "facebook": "#"
+    },
+    {
+        "name": "La Yumba",
+        "id": "2",
+        "direccion": "prueba.html",
+        "instagram": "https://www.instagram.com/chamulacentrocultural",
+        "facebook": "https://www.facebook.com/Layumba.espaciocutural/"
+    },
+    {
+        "name": "Insurgente",
+        "id": "3",
+        "direccion": "#",
+        "instagram": "https://www.instagram.com/insurgente_espacio",
+        "facebook": "#"
+    },
+    {
+        "name": "Punto de Giro",
+        "id": "4",
+        "direccion": "#",
+        "instagram": "https://www.instagram.com/puntodegiroespacioteatral",
+        "facebook": "#"
+    }
+]

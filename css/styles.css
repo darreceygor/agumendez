@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 4.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.5em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+p:first-letter {
+    font-weight: bold;
+    font-size: 250%;
+    font-style: italic;
+    color: rgb(55, 110, 141);
+    float: left;
+    line-height: 85%;
+    padding-right: 4px;
+    padding-top: 4px;
+    margin-bottom: -10px;
+
+}
+
+
+/*-------------------------
+FOTO
+*/
+
+#divPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil{
+    width: 300px;
+    height: 450px;
+    border: black solid 1px;
+    border-radius: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245,245,245);
+    position: fixed;
+    width: 100vw;
+}
+
+header .logo {
+    margin: 0;
+    padding: 5px;
+}
+
+header .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(112, 111, 111);
+}
+
+#hero {
+    padding-top: 220px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:inherit;
+}
+
+#hero .container{
+    padding: 70px;
+    text-align: center;
+}
+
+#hero h1,h2 {
+    color: white;
+}
+
+#hero h1{
+    font-size: 10vw;
+}
+
+#hero h2{
+    font-size: 5vw;
+}
+
+
+#nosotros {
+    padding-top: 170px;
+
+}
+
+#nosotros .container{
+    padding: 50px;
+}
+
+.parrafo h2{
+    text-align: center;
+    color: black;
+}
+
+.parrafo p{
+    border: 10px double rgb(87, 83, 83);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#investigacion {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background-color: rgb(245,245,245);
+    
+}
+
+#investigacion .container{
+    padding: 50px;
+}
+
+#investigacion h2,
+#nosotros h2,
+#contacto h2 {
+    margin:0;
+    padding-bottom:25px ;
+    text-align: center;
+    color:black;
+}
+
+.ficha {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.carta {
+    margin: -25px;
+}
+
+.carta img{
+    margin: 0;
+    width: 100%;
+    height: 150px;
+    border-radius:15px 15px 0 0 ;
+    object-fit: cover;
+}
+
+.carta p {
+    display: none;
+}
+
+button {
+    font-size: 1.3em;;
+    background-color: blueviolet;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color:white;
+}
+
+button:hover {
+    background-color: rgb(82, 27, 133);
+}
+
+#contacto {
+    margin-top: 50px;
+    padding-top: 220px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:inherit;
+
+}
+
+footer {
+    margin: 0;
+    color: white;
+    width: auto;
+    height: 250px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:inherit;
+}
+
+footer h3 {
+    font-size: 1.2em;
+    text-align: center;
+}    
+
+
+
+/***********************************/
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    color: white;
+}
+ 
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    color: white;
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+    margin-bottom: 50px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+/***********************************/
+
+@media (min-width: 850px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1 {
+        font-size: 5em;
+        font-style: italic;
+    }
+
+    #hero h2 {
+        font-size: 2em;;
+    }
+
+    #nosotros {
+        padding: 80px;
+    }
+
+    #nosotros .container,
+    #investigacion .container{
+        padding: 4px 0 0 2px;
+    }
+
+    #investigacion .carta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+        
+    .ficha {
+        width: 250px;
+        height: auto;
+        padding: 25px;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 25px 0;
+        text-align: center;
+    }
+    
+    .carta {
+        margin: -25px;
+    }
+    
+    .carta img{
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        border-radius:15px 15px 0 0 ;
+
+    }
+    
+    .carta p {
+        display: none;
+    }
+  
+
+}
+
+

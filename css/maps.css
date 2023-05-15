@@ -1,0 +1,51 @@
+.mapa {
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 5px; 
+}
+
+.mapa {
+    margin-left:auto ;
+    margin-top: 50px;
+}
+
+.tablas {
+    color: black;
+}
+
+.detalleInvestiga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    margin: 50px auto;
+}
+table, th, td {
+    border:1px solid black;
+}
+
+th, td {
+    height: 35px;
+}
+
+td .icono {
+    width: 25px;
+    height: 25px;
+    margin:0 auto;
+    display:block;
+
+}
+
+.visible {
+    display:none;
+}
+
+@media (min-width: 1000px){
+    .visible {
+        display:flex;
+    }
+}

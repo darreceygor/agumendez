@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Marcelo Fabian Conte",
+        "id": "1",
+        "direccion": "prueba.html",
+        "instagram": "https://www.instagram.com/arteferrico",
+        "facebook": "#"
+    },
+    {
+        "name": "Ruben Jose Durso",
+        "id": "2",
+        "direccion": "prueba.html",
+        "instagram": "#",
+        "facebook": "#"
+    },
+    {
+        "name": "Sebastian Lopez",
+        "id": "3",
+        "direccion": "#",
+        "instagram": "https://www.instagram.com/sebastian_lopez_",
+        "facebook": "#",
+        "youtube":"www.youtube.com/user/grabadoconburil"
+    }
+]

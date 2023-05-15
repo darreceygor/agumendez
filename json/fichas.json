@@ -1,0 +1,74 @@
+[
+    {
+        "category": "Artes Circenses",
+        "image": "img/circo.jpg",
+        "id": "1",
+        "resource":"#"
+    },
+    {
+        "category": "Artes Plásticas",
+        "image": "img/plastica.jpg",
+        "id": "2",
+        "resource":"#"
+    },
+    {
+        "category": "Artesanías",
+        "image": "img/artesanias.jpg",
+        "id": "3",
+        "resource":"artesanias.html"
+    },
+    {
+        "category": "Audiovisual",
+        "image": "img/audiovisual.jpg",
+        "id": "4",
+        "resource":"#"
+    },
+    {
+        "category": "Bibliotecas",
+        "image": "img/biblioteca.jpg",
+        "id": "5",
+        "resource":"#"
+    },
+    {
+        "category": "Centros Culturales",
+        "image": "img/centro.jpg",
+        "id": "6",
+        "resource":"centros.html"
+    },
+    {
+        "category": "Colectivos de Trabajo",
+        "image": "img/colectivos.jpg",
+        "id": "7",
+        "resource":"#"
+    },
+    {
+        "category": "Danza",
+        "image": "img/danza.jpg",
+        "id": "8",
+        "resource":"#"
+    },
+    {
+        "category": "Literatura",
+        "image": "img/literatura.jpg",
+        "id": "9",
+        "resource":"#"
+    },
+    {
+        "category": "Música",
+        "image": "img/musica.jpg",
+        "id": "10",
+        "resource":"#"
+    },
+    {
+        "category": "Otros",
+        "image": "img/otros.jpg",
+        "id": "11",
+        "resource":"#"
+    },
+    {
+        "category": "Teatro",
+        "image": "img/teatro.jpg",
+        "id": "12",
+        "resource":"#"
+    }
+]
